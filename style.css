@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700');
+@import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light');
+
+body {
+	padding-top: 50px;	
+	font-family: 'Lato', sans-serif;
+}
+.container-padding {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+/*Styles for section: header*/
+.navbar-brand {
+	font-family: 'Shadows Into Light', cursive;	
+	font-weight: bold;
+	letter-spacing: 3px;
+}
+
+/*Styles for section: jumbotron*/
+.jumbotron {
+	height: 100vh;
+	background-image: url("https://images.pexels.com/photos/540925/pexels-photo-540925.jpeg?h=350&auto=compress&cs=tinysrgb");
+	background-size: cover;
+}	
+.jumbotron>div {
+	background-color: rgba(232, 230, 148, 0.3);	
+	padding: 20px;
+}
+.jumbotron h1, 
+.jumbotron small,
+.map p {
+	color: #2b0738;	
+}
+
+/*Styles for section: description*/
+.carousel,
+.tab-pane {
+	padding-top: 10px;
+}
+.carousel img {
+	margin: 10px auto;	
+}
+
+/*Styles for section: description*/
+.navbar,
+.nav-pills>li.active>a,
+.nav-pills>li.active>a:focus,
+.nav-pills>li.active>a:hover {
+	background-color: #2b0738;		
+}
+.media-body {
+	vertical-align: middle;	
+}
+.media img {
+	height: 50%;	
+}
+
+/*Styles for section: table-section*/
+input[type="number"] {
+	text-align: center;	
+}
+
+/*Styles for section: contact-form*/
+.own-button,
+.footer-section,
+.carousel,
+.badge,
+.contact-form .panel-heading {
+	background-color: #2b0738;	
+	color: white !important;	
+}
+.own-button:hover {
+	background-color: black;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus,
+.panel {
+	border: 1px solid #2b0738; 	
+}
+.contact-form .panel-heading {
+	font-size: 20px;
+}
+.map img {
+	width: 100%;
+}
+
+/*Styles for section: footer-section*/
+.footer-section {
+	padding: 20px;
+}
+
+
+@media (max-width: 768px) {
+	header .form-group {
+		display: inline-block;
+		width: 70%;
+	}
+	.navbar-fixed-top {
+		text-align: center;
+	}
+	.navbar-brand {
+		float: none;
+		display: block;
+	}
+	.navbar-nav {
+		margin-top: 0px;	
+	}
+	/*.media-left {
+		display: none;	
+	}*/
+} 
+@media (min-width: 769px) and (max-width: 992px) {
+	.navbar-right {
+		float: none !important;
+		text-align: center;
+	}
+}
