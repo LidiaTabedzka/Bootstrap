@@ -1,0 +1,29 @@
+{
+  "name": "bootstrap",
+  "version": "1.0.0",
+  "description": "Example grunt project",
+  "main": "index.js",
+  "scripts": {
+    "test": "kodilla-test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LidiaTabedzka/first-project.git"
+  },
+  "keywords": [
+    "grunt"
+  ],
+  "author": "Lidia Tabędzka",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LidiaTabedzka/first-project/issues"
+  },
+  "homepage": "https://github.com/LidiaTabedzka/first-project#readme",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-browser-sync": "^2.2.0",
+    "grunt-contrib-imagemin": "^2.0.1",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-sass": "^2.0.0"
+  }
+}
